@@ -9068,6 +9068,9 @@ high speed (Philips)</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C_BYP1" library="rcl" deviceset="C-EU" device="025-025X050" value="0.1nf"/>
 <part name="D2" library="diode" deviceset="1N4148" device="DO35-10"/>
+<part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="D3" library="diode" deviceset="1N4148" device="DO35-10"/>
+<part name="D4" library="diode" deviceset="1N4148" device="DO35-10"/>
 </parts>
 <sheets>
 <sheet>
@@ -9129,8 +9132,8 @@ high speed (Philips)</description>
 <instance part="IC1" gate="A1" x="-279.4" y="337.82"/>
 <instance part="GND13" gate="1" x="-279.4" y="322.58"/>
 <instance part="P+12" gate="VCC" x="-264.16" y="342.9"/>
-<instance part="X2" gate="-1" x="-304.8" y="337.82"/>
-<instance part="X2" gate="-2" x="-304.8" y="332.74"/>
+<instance part="X2" gate="-1" x="-317.5" y="335.28"/>
+<instance part="X2" gate="-2" x="-317.5" y="330.2"/>
 <instance part="C6" gate="G$1" x="-266.7" y="332.74"/>
 <instance part="C7" gate="G$1" x="-294.64" y="332.74"/>
 <instance part="D1" gate="G$1" x="-182.88" y="373.38" rot="R90"/>
@@ -9150,6 +9153,9 @@ high speed (Philips)</description>
 <instance part="GND16" gate="1" x="-124.46" y="441.96"/>
 <instance part="C_BYP1" gate="G$1" x="-127" y="469.9"/>
 <instance part="D2" gate="G$1" x="-185.42" y="467.36" rot="R90"/>
+<instance part="GND6" gate="1" x="-205.74" y="228.6"/>
+<instance part="D3" gate="G$1" x="-279.4" y="353.06" rot="R180"/>
+<instance part="D4" gate="G$1" x="-304.8" y="337.82"/>
 </instances>
 <busses>
 <bus name="B[0..3]">
@@ -9240,6 +9246,9 @@ high speed (Philips)</description>
 <wire x1="-264.16" y1="337.82" x2="-264.16" y2="340.36" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="-266.7" y1="335.28" x2="-266.7" y2="337.82" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="-276.86" y1="353.06" x2="-266.7" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="-266.7" y1="353.06" x2="-266.7" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+13" gate="VCC" pin="VCC"/>
@@ -9358,12 +9367,13 @@ high speed (Philips)</description>
 <wire x1="-266.7" y1="327.66" x2="-279.4" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="-279.4" y1="327.66" x2="-287.02" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="-287.02" y1="327.66" x2="-287.02" y2="325.12" width="0.1524" layer="91"/>
-<wire x1="-299.72" y1="325.12" x2="-294.64" y2="325.12" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-2" pin="KL"/>
-<wire x1="-299.72" y1="332.74" x2="-299.72" y2="325.12" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="-294.64" y1="327.66" x2="-294.64" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="-287.02" y1="325.12" x2="-294.64" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="-294.64" y1="325.12" x2="-309.88" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="-309.88" y1="325.12" x2="-309.88" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-2" pin="KL"/>
+<wire x1="-309.88" y1="330.2" x2="-312.42" y2="330.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -9383,6 +9393,12 @@ high speed (Philips)</description>
 <wire x1="-127" y1="464.82" x2="-129.54" y2="462.28" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="462.28" x2="-129.54" y2="444.5" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="444.5" x2="-124.46" y2="444.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="ICSP" gate="A" pin="6"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="-215.9" y1="233.68" x2="-205.74" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="233.68" x2="-205.74" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9698,11 +9714,14 @@ high speed (Philips)</description>
 <net name="N$29" class="0">
 <segment>
 <pinref part="IC1" gate="A1" pin="VI"/>
-<pinref part="X2" gate="-1" pin="KL"/>
 <wire x1="-289.56" y1="337.82" x2="-294.64" y2="337.82" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="-294.64" y1="337.82" x2="-299.72" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="-294.64" y1="335.28" x2="-294.64" y2="337.82" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="-281.94" y1="353.06" x2="-294.64" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="-294.64" y1="353.06" x2="-294.64" y2="337.82" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="-302.26" y1="337.82" x2="-294.64" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -9812,6 +9831,14 @@ high speed (Philips)</description>
 <wire x1="-233.68" y1="259.08" x2="-233.68" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="ICSP" gate="A" pin="1"/>
 <wire x1="-233.68" y1="238.76" x2="-223.52" y2="238.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="X2" gate="-1" pin="KL"/>
+<wire x1="-312.42" y1="335.28" x2="-312.42" y2="337.82" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="-312.42" y1="337.82" x2="-307.34" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

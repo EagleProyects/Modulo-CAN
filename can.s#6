@@ -9223,18 +9223,20 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-127" y1="350.52" x2="-121.92" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="IC1" gate="A1" pin="GND"/>
-<wire x1="-279.4" y1="325.12" x2="-279.4" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="-279.4" y1="327.66" x2="-279.4" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="-279.4" y1="330.2" x2="-279.4" y2="327.66" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="-279.4" y1="327.66" x2="-279.4" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="-266.7" y1="327.66" x2="-279.4" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="-279.4" y1="327.66" x2="-287.02" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="-287.02" y1="327.66" x2="-287.02" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="-299.72" y1="325.12" x2="-294.64" y2="325.12" width="0.1524" layer="91"/>
 <pinref part="X2" gate="-2" pin="KL"/>
-<wire x1="-294.64" y1="325.12" x2="-279.4" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="-299.72" y1="332.74" x2="-299.72" y2="325.12" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="-294.64" y1="327.66" x2="-294.64" y2="325.12" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="-266.7" y1="327.66" x2="-279.4" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="-287.02" y1="325.12" x2="-294.64" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9587,6 +9589,46 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-93.98,271.78,U$2,VDD,VCC,,,"/>
+<approved hash="202,1,-93.98,261.62,U$2,VREF,,,,"/>
+<approved hash="104,1,-93.98,256.54,U$2,VSS,GND,,,"/>
+<approved hash="104,1,-248.92,312.42,IC2,AVCC,VCC,,,"/>
+<approved hash="108,1,-233.68,347.98,VCC,,,,,"/>
+<approved hash="108,1,-223.52,347.98,VCC,,,,,"/>
+<approved hash="108,1,-266.7,337.82,VCC,,,,,"/>
+<approved hash="108,1,-243.84,347.98,VCC,,,,,"/>
+<approved hash="108,1,-251.46,347.98,VCC,,,,,"/>
+<approved hash="108,1,-254,287.02,VCC,,,,,"/>
+<approved hash="108,1,-109.22,378.46,VCC,,,,,"/>
+<approved hash="108,1,-279.4,327.66,GND,,,,,"/>
+<approved hash="108,1,-121.92,350.52,GND,,,,,"/>
+<approved hash="108,1,-218.44,350.52,GND,,,,,"/>
+<approved hash="108,1,-264.16,289.56,GND,,,,,"/>
+<approved hash="108,1,-228.6,350.52,GND,,,,,"/>
+<approved hash="108,1,-208.28,350.52,GND,,,,,"/>
+<approved hash="108,1,-294.64,325.12,GND,,,,,"/>
+<approved hash="108,1,-193.04,269.24,N$3,,,,,"/>
+<approved hash="108,1,-195.58,264.16,N$7,,,,,"/>
+<approved hash="108,1,-251.46,325.12,N$21,,,,,"/>
+<approved hash="108,1,-198.12,266.7,N$6,,,,,"/>
+<approved hash="108,1,-109.22,365.76,N$27,,,,,"/>
+<approved hash="108,1,-111.76,373.38,N$18,,,,,"/>
+<approved hash="108,1,-294.64,337.82,N$29,,,,,"/>
+<approved hash="113,1,-45.953,261.62,CAN,,,,,"/>
+<approved hash="113,1,-43.8108,238.76,FUENTE,,,,,"/>
+<approved hash="113,1,-58.5512,302.497,TERM,,,,,"/>
+<approved hash="113,1,-184.055,281.94,X1,,,,,"/>
+<approved hash="113,1,-180.967,360.976,T1,,,,,"/>
+<approved hash="113,1,-135.674,365.76,RA,,,,,"/>
+<approved hash="113,1,-242.701,355.837,AN0,,,,,"/>
+<approved hash="113,1,-232.541,355.837,AN1,,,,,"/>
+<approved hash="113,1,-222.381,355.837,AN2,,,,,"/>
+<approved hash="113,1,-212.221,355.837,AN3,,,,,"/>
+<approved hash="113,1,-185.183,299.851,TERM1,,,,,"/>
+<approved hash="113,1,-219.752,237.621,ICSP,,,,,"/>
+<approved hash="113,1,-303.625,337.82,X2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
