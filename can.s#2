@@ -9466,12 +9466,12 @@ high speed (Philips)</description>
 <wire x1="-170.18" y1="266.7" x2="-170.18" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="261.62" x2="-177.8" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="-177.8" y1="261.62" x2="-182.88" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="-182.88" y1="261.62" x2="-182.88" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="-182.88" y1="261.62" x2="-182.88" y2="276.86" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-177.8" y1="251.46" x2="-177.8" y2="261.62" width="0.1524" layer="91"/>
 <junction x="-177.8" y="261.62"/>
-<wire x1="-200.66" y1="271.78" x2="-182.88" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PB2(SS/OC1B)"/>
+<pinref part="IC2" gate="G$1" pin="PB0(ICP)"/>
+<wire x1="-200.66" y1="276.86" x2="-182.88" y2="276.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">

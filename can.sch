@@ -9053,7 +9053,7 @@ high speed (Philips)</description>
 <part name="P+12" library="supply1" deviceset="VCC" device="" value="+5V"/>
 <part name="X2" library="con-ptr500" deviceset="AK500/2" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="025-025X050" value=".1nf"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="025-025X050" value=".1nf"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="025-025X050" value="100uf"/>
 <part name="D1" library="diode" deviceset="1N4148" device="DO35-10"/>
 <part name="K1" library="relay" deviceset="G5LE" device=""/>
 <part name="T2" library="transistor" deviceset="*-NPN-" device="TO92-CBE" technology="BC548"/>
