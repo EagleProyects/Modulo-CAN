@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="9" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="9" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -9021,9 +9021,6 @@ high speed (Philips)</description>
 <part name="R2" library="rcl" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="P+4" library="supply1" deviceset="VCC" device="" value="+5V"/>
 <part name="CAN" library="con-ptr500" deviceset="AK500/2" device=""/>
-<part name="FUENTE" library="con-ptr500" deviceset="AK500/2" device=""/>
-<part name="P+6" library="supply1" deviceset="VCC" device="" value="+5V"/>
-<part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="TERM" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="0207/10" value="120"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
@@ -9041,7 +9038,7 @@ high speed (Philips)</description>
 <part name="P+9" library="supply1" deviceset="VCC" device="" value="+5V"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="0207/10" value="10k"/>
-<part name="TERM1" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="SERIAL" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="ICSP" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device="" value="+5V"/>
 <part name="U1" library="Allegro_By_element14_Batch_1" deviceset="ACS712ELCTR-05B-T" device=""/>
@@ -9099,10 +9096,6 @@ high speed (Philips)</description>
 <instance part="P+4" gate="VCC" x="-254" y="276.86" rot="R180"/>
 <instance part="CAN" gate="-1" x="-45.72" y="261.62" rot="R180"/>
 <instance part="CAN" gate="-2" x="-45.72" y="266.7" rot="R180"/>
-<instance part="FUENTE" gate="-1" x="-45.72" y="238.76" rot="R180"/>
-<instance part="FUENTE" gate="-2" x="-45.72" y="243.84" rot="R180"/>
-<instance part="P+6" gate="VCC" x="-53.34" y="248.92"/>
-<instance part="GND6" gate="1" x="-53.34" y="236.22"/>
 <instance part="TERM" gate="G$1" x="-55.88" y="304.8" rot="R90"/>
 <instance part="R3" gate="G$1" x="-55.88" y="279.4" rot="R90"/>
 <instance part="GND8" gate="1" x="-86.36" y="312.42"/>
@@ -9123,9 +9116,9 @@ high speed (Philips)</description>
 <instance part="P+9" gate="VCC" x="-254" y="350.52"/>
 <instance part="GND10" gate="1" x="-200.66" y="347.98"/>
 <instance part="R6" gate="G$1" x="-251.46" y="332.74" rot="R90"/>
-<instance part="TERM1" gate="G$1" x="-182.88" y="297.18"/>
+<instance part="SERIAL" gate="G$1" x="-182.88" y="297.18"/>
 <instance part="ICSP" gate="A" x="-220.98" y="236.22"/>
-<instance part="P+10" gate="VCC" x="-233.68" y="246.38"/>
+<instance part="P+10" gate="VCC" x="-205.74" y="243.84"/>
 <instance part="U1" gate="A" x="-88.9" y="370.84"/>
 <instance part="GND11" gate="1" x="-109.22" y="353.06"/>
 <instance part="P+11" gate="VCC" x="-109.22" y="383.54"/>
@@ -9206,12 +9199,6 @@ high speed (Philips)</description>
 <pinref part="IC2" gate="G$1" pin="AVCC"/>
 </segment>
 <segment>
-<pinref part="FUENTE" gate="-2" pin="KL"/>
-<pinref part="P+6" gate="VCC" pin="VCC"/>
-<wire x1="-50.8" y1="243.84" x2="-53.34" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="243.84" x2="-53.34" y2="246.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
 <pinref part="K2" gate="1" pin="1"/>
 <wire x1="-175.26" y1="381" x2="-175.26" y2="378.46" width="0.1524" layer="91"/>
@@ -9236,12 +9223,6 @@ high speed (Philips)</description>
 <wire x1="-213.36" y1="347.98" x2="-213.36" y2="355.6" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="-251.46" y1="337.82" x2="-251.46" y2="347.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="ICSP" gate="A" pin="1"/>
-<pinref part="P+10" gate="VCC" pin="VCC"/>
-<wire x1="-223.52" y1="238.76" x2="-233.68" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="238.76" x2="-233.68" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
@@ -9275,6 +9256,12 @@ high speed (Philips)</description>
 <wire x1="-109.22" y1="472.44" x2="-111.76" y2="472.44" width="0.1524" layer="91"/>
 <pinref part="C_BYP1" gate="G$1" pin="1"/>
 <wire x1="-127" y1="472.44" x2="-111.76" y2="472.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="ICSP" gate="A" pin="2"/>
+<pinref part="P+10" gate="VCC" pin="VCC"/>
+<wire x1="-215.9" y1="238.76" x2="-205.74" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="238.76" x2="-205.74" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9315,11 +9302,6 @@ high speed (Philips)</description>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="-254" y1="317.5" x2="-248.92" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="FUENTE" gate="-1" pin="KL"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="-50.8" y1="238.76" x2="-53.34" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -9413,7 +9395,7 @@ high speed (Philips)</description>
 <wire x1="-193.04" y1="269.24" x2="-200.66" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="-193.04" y1="269.24" x2="-193.04" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="ICSP" gate="A" pin="4"/>
-<wire x1="-193.04" y1="236.22" x2="-215.9" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="-215.9" y1="236.22" x2="-193.04" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -9421,12 +9403,14 @@ high speed (Philips)</description>
 <pinref part="U$1" gate="G$1" pin="SCK"/>
 <wire x1="-160.02" y1="281.94" x2="-172.72" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="281.94" x2="-172.72" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="-172.72" y1="264.16" x2="-195.58" y2="264.16" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="PB5(SCK)"/>
+<wire x1="-172.72" y1="264.16" x2="-195.58" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="ICSP" gate="A" pin="3"/>
 <wire x1="-195.58" y1="264.16" x2="-200.66" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="264.16" x2="-195.58" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="ICSP" gate="A" pin="2"/>
-<wire x1="-195.58" y1="238.76" x2="-215.9" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="-223.52" y1="236.22" x2="-231.14" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="-231.14" y1="236.22" x2="-231.14" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="-231.14" y1="256.54" x2="-195.58" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="256.54" x2="-195.58" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -9482,12 +9466,12 @@ high speed (Philips)</description>
 <wire x1="-170.18" y1="266.7" x2="-170.18" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="261.62" x2="-177.8" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="-177.8" y1="261.62" x2="-182.88" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="-182.88" y1="261.62" x2="-182.88" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="-182.88" y1="261.62" x2="-182.88" y2="276.86" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-177.8" y1="251.46" x2="-177.8" y2="261.62" width="0.1524" layer="91"/>
 <junction x="-177.8" y="261.62"/>
-<wire x1="-200.66" y1="271.78" x2="-182.88" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PB2(SS/OC1B)"/>
+<pinref part="IC2" gate="G$1" pin="PB0(ICP)"/>
+<wire x1="-200.66" y1="276.86" x2="-182.88" y2="276.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -9645,32 +9629,15 @@ high speed (Philips)</description>
 <net name="N$22" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="PD0(RXD)"/>
-<pinref part="TERM1" gate="G$1" pin="1"/>
+<pinref part="SERIAL" gate="G$1" pin="1"/>
 <wire x1="-200.66" y1="299.72" x2="-185.42" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="PD1(TXD)"/>
-<pinref part="TERM1" gate="G$1" pin="2"/>
+<pinref part="SERIAL" gate="G$1" pin="2"/>
 <wire x1="-200.66" y1="297.18" x2="-185.42" y2="297.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="ICSP" gate="A" pin="3"/>
-<wire x1="-223.52" y1="236.22" x2="-243.84" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="-243.84" y1="236.22" x2="-243.84" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="-243.84" y1="256.54" x2="-226.06" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="-226.06" y1="256.54" x2="-226.06" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="SI"/>
-<wire x1="-160.02" y1="276.86" x2="-175.26" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="-175.26" y1="276.86" x2="-175.26" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="-175.26" y1="266.7" x2="-198.12" y2="266.7" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PB4(MISO)"/>
-<wire x1="-198.12" y1="266.7" x2="-200.66" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="-226.06" y1="259.08" x2="-198.12" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="-198.12" y1="259.08" x2="-198.12" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -9832,6 +9799,21 @@ high speed (Philips)</description>
 <wire x1="-193.04" y1="281.94" x2="-200.66" y2="281.94" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB4(MISO)"/>
+<pinref part="U$1" gate="G$1" pin="SI"/>
+<wire x1="-160.02" y1="276.86" x2="-175.26" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="-175.26" y1="276.86" x2="-175.26" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="-175.26" y1="266.7" x2="-198.12" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="-198.12" y1="266.7" x2="-200.66" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="-198.12" y1="259.08" x2="-198.12" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="-198.12" y1="259.08" x2="-233.68" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="-233.68" y1="259.08" x2="-233.68" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="ICSP" gate="A" pin="1"/>
+<wire x1="-233.68" y1="238.76" x2="-223.52" y2="238.76" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -9873,7 +9855,6 @@ high speed (Philips)</description>
 <approved hash="108,1,-114.3,467.36,N$35,,,,,"/>
 <approved hash="111,1,-194.31,454.66,N$33,,,,,"/>
 <approved hash="113,1,-45.953,261.62,CAN,,,,,"/>
-<approved hash="113,1,-43.8108,238.76,FUENTE,,,,,"/>
 <approved hash="113,1,-58.5512,302.497,TERM,,,,,"/>
 <approved hash="113,1,-180.967,360.976,T1,,,,,"/>
 <approved hash="113,1,-135.674,365.76,RA,,,,,"/>
@@ -9881,7 +9862,7 @@ high speed (Philips)</description>
 <approved hash="113,1,-232.541,355.837,AN1,,,,,"/>
 <approved hash="113,1,-222.381,355.837,AN2,,,,,"/>
 <approved hash="113,1,-212.221,355.837,AN3,,,,,"/>
-<approved hash="113,1,-185.183,299.851,TERM1,,,,,"/>
+<approved hash="113,1,-185.146,299.851,SERIAL,,,,,"/>
 <approved hash="113,1,-219.752,237.621,ICSP,,,,,"/>
 <approved hash="113,1,-303.625,337.82,X2,,,,,"/>
 <approved hash="113,1,-183.507,454.956,T2,,,,,"/>
