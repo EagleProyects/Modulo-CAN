@@ -10673,11 +10673,6 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-86.36" y1="320.04" x2="-86.36" y2="314.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="T1" gate="G$1" pin="E"/>
-<wire x1="-175.26" y1="353.06" x2="-175.26" y2="355.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="AN3" gate="A" pin="3"/>
 <wire x1="-200.66" y1="350.52" x2="-208.28" y2="350.52" width="0.1524" layer="91"/>
@@ -10696,15 +10691,6 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="U1" gate="A" pin="GND"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="-106.68" y1="355.6" x2="-109.22" y2="355.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="CF" gate="G$1" pin="2"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="-121.92" y1="353.06" x2="-121.92" y2="350.52" width="0.1524" layer="91"/>
-<pinref part="C_BYP" gate="G$1" pin="2"/>
-<wire x1="-124.46" y1="370.84" x2="-127" y2="368.3" width="0.1524" layer="91"/>
-<wire x1="-127" y1="368.3" x2="-127" y2="350.52" width="0.1524" layer="91"/>
-<wire x1="-127" y1="350.52" x2="-121.92" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A1" pin="GND"/>
@@ -10752,6 +10738,20 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="-365.76" y1="370.84" x2="-360.68" y2="370.84" width="0.1524" layer="91"/>
 <wire x1="-360.68" y1="370.84" x2="-360.68" y2="373.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="T1" gate="G$1" pin="E"/>
+<wire x1="-175.26" y1="353.06" x2="-175.26" y2="355.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CF" gate="G$1" pin="2"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="-121.92" y1="353.06" x2="-121.92" y2="350.52" width="0.1524" layer="91"/>
+<pinref part="C_BYP" gate="G$1" pin="2"/>
+<wire x1="-124.46" y1="370.84" x2="-127" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="-127" y1="368.3" x2="-127" y2="350.52" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="350.52" x2="-127" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -11214,23 +11214,23 @@ Source: http://www.osram.convergy.de/</description>
 <approved hash="202,1,-93.98,261.62,U$2,VREF,,,,"/>
 <approved hash="104,1,-93.98,256.54,U$2,VSS,GND,,,"/>
 <approved hash="104,1,-248.92,312.42,IC2,AVCC,VCC,,,"/>
-<approved hash="108,1,-177.8,472.44,VCC,,,,,"/>
-<approved hash="108,1,-109.22,378.46,VCC,,,,,"/>
-<approved hash="108,1,-243.84,347.98,VCC,,,,,"/>
-<approved hash="108,1,-111.76,472.44,VCC,,,,,"/>
 <approved hash="108,1,-233.68,347.98,VCC,,,,,"/>
-<approved hash="108,1,-223.52,347.98,VCC,,,,,"/>
-<approved hash="108,1,-175.26,378.46,VCC,,,,,"/>
-<approved hash="108,1,-294.64,360.68,VCC,,,,,"/>
+<approved hash="108,1,-109.22,378.46,VCC,,,,,"/>
 <approved hash="108,1,-254,287.02,VCC,,,,,"/>
+<approved hash="108,1,-294.64,360.68,VCC,,,,,"/>
 <approved hash="108,1,-251.46,347.98,VCC,,,,,"/>
+<approved hash="108,1,-223.52,347.98,VCC,,,,,"/>
+<approved hash="108,1,-243.84,347.98,VCC,,,,,"/>
 <approved hash="108,1,-304.8,360.68,VCC,,,,,"/>
-<approved hash="108,1,-208.28,350.52,GND,,,,,"/>
-<approved hash="108,1,-228.6,350.52,GND,,,,,"/>
-<approved hash="108,1,-264.16,289.56,GND,,,,,"/>
-<approved hash="108,1,-124.46,444.5,GND,,,,,"/>
+<approved hash="108,1,-175.26,378.46,VCC,,,,,"/>
+<approved hash="108,1,-177.8,472.44,VCC,,,,,"/>
+<approved hash="108,1,-111.76,472.44,VCC,,,,,"/>
 <approved hash="108,1,-121.92,350.52,GND,,,,,"/>
+<approved hash="108,1,-264.16,289.56,GND,,,,,"/>
 <approved hash="108,1,-317.5,350.52,GND,,,,,"/>
+<approved hash="108,1,-124.46,444.5,GND,,,,,"/>
+<approved hash="108,1,-228.6,350.52,GND,,,,,"/>
+<approved hash="108,1,-208.28,350.52,GND,,,,,"/>
 <approved hash="108,1,-317.5,337.82,GND,,,,,"/>
 <approved hash="108,1,-218.44,350.52,GND,,,,,"/>
 <approved hash="108,1,-193.04,269.24,N$3,,,,,"/>
@@ -11252,11 +11252,11 @@ Source: http://www.osram.convergy.de/</description>
 <approved hash="113,1,-232.541,355.837,AN1,,,,,"/>
 <approved hash="113,1,-222.381,355.837,AN2,,,,,"/>
 <approved hash="113,1,-212.221,355.837,AN3,,,,,"/>
-<approved hash="113,1,-185.146,299.851,SERIAL,,,,,"/>
 <approved hash="113,1,-219.752,237.621,ICSP,,,,,"/>
 <approved hash="113,1,-370.518,370.84,VCC,,,,,"/>
 <approved hash="113,1,-183.507,454.956,T2,,,,,"/>
 <approved hash="113,1,-137.518,459.74,RA1,,,,,"/>
+<approved hash="113,1,-183.944,294.64,SERIAL,,,,,"/>
 </errors>
 </schematic>
 </drawing>

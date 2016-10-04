@@ -11140,9 +11140,6 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-71.12" y1="434.34" x2="-182.88" y2="434.34" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="406.4" x2="-182.88" y2="434.34" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="406.4" x2="-195.58" y2="406.4" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PB2(SS/OC1B)"/>
-<wire x1="-200.66" y1="271.78" x2="-195.58" y2="271.78" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="271.78" x2="-195.58" y2="406.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -11202,6 +11199,13 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="VCC" gate="-2" pin="KL"/>
 <pinref part="D5" gate="1" pin="A"/>
 <wire x1="-365.76" y1="365.76" x2="-358.14" y2="365.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB2(SS/OC1B)"/>
+<wire x1="-200.66" y1="271.78" x2="-195.58" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="271.78" x2="-195.58" y2="375.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

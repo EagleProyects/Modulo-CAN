@@ -11058,9 +11058,11 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-71.12" y1="378.46" x2="-68.58" y2="378.46" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="378.46" x2="-68.58" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="340.36" x2="-180.34" y2="340.36" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PC4(ADC4/SDA)"/>
-<wire x1="-200.66" y1="312.42" x2="-180.34" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="-180.34" y1="312.42" x2="-180.34" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="287.02" x2="-180.34" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="287.02" x2="-187.96" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="-187.96" y1="287.02" x2="-187.96" y2="274.32" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PB1(OC1A)"/>
+<wire x1="-187.96" y1="274.32" x2="-200.66" y2="274.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -11137,10 +11139,10 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-71.12" y1="472.44" x2="-71.12" y2="434.34" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="434.34" x2="-182.88" y2="434.34" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="406.4" x2="-182.88" y2="434.34" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PC5(ADC5/SCL)"/>
-<wire x1="-195.58" y1="309.88" x2="-200.66" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="406.4" x2="-195.58" y2="406.4" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="406.4" x2="-195.58" y2="309.88" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PB2(SS/OC1B)"/>
+<wire x1="-200.66" y1="271.78" x2="-195.58" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="271.78" x2="-195.58" y2="406.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">

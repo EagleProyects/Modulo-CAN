@@ -10376,7 +10376,6 @@ Source: http://www.osram.convergy.de/</description>
 <part name="P+9" library="supply1" deviceset="VCC" device="" value="+5V"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="0207/10" value="10k"/>
-<part name="SERIAL" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="ICSP" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device="" value="+5V"/>
 <part name="U1" library="Allegro_By_element14_Batch_1" deviceset="ACS712ELCTR-05B-T" device=""/>
@@ -10412,6 +10411,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="D5" library="diode" deviceset="1N4004" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="diode" deviceset="1N4004" device=""/>
+<part name="SERIAL" library="con-ptr500" deviceset="AK500/2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10460,7 +10460,6 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="P+9" gate="VCC" x="-254" y="350.52"/>
 <instance part="GND10" gate="1" x="-200.66" y="347.98"/>
 <instance part="R6" gate="G$1" x="-251.46" y="332.74" rot="R90"/>
-<instance part="SERIAL" gate="G$1" x="-182.88" y="297.18"/>
 <instance part="ICSP" gate="A" x="-220.98" y="236.22"/>
 <instance part="P+10" gate="VCC" x="-205.74" y="243.84"/>
 <instance part="U1" gate="A" x="-88.9" y="370.84"/>
@@ -10500,6 +10499,8 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="D5" gate="1" x="-355.6" y="365.76"/>
 <instance part="GND7" gate="1" x="-360.68" y="375.92" rot="R180"/>
 <instance part="D3" gate="1" x="-320.04" y="375.92" rot="R180"/>
+<instance part="SERIAL" gate="-1" x="-185.42" y="294.64" rot="R180"/>
+<instance part="SERIAL" gate="-2" x="-185.42" y="299.72" rot="R180"/>
 </instances>
 <busses>
 <bus name="B[0..3]">
@@ -10994,20 +10995,6 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-269.24" y1="233.68" x2="-223.52" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="PD0(RXD)"/>
-<pinref part="SERIAL" gate="G$1" pin="1"/>
-<wire x1="-200.66" y1="299.72" x2="-185.42" y2="299.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="PD1(TXD)"/>
-<pinref part="SERIAL" gate="G$1" pin="2"/>
-<wire x1="-200.66" y1="297.18" x2="-185.42" y2="297.18" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="PD6(AIN0)"/>
@@ -11202,6 +11189,21 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-71.12" y1="434.34" x2="-182.88" y2="434.34" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="406.4" x2="-182.88" y2="434.34" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="406.4" x2="-195.58" y2="406.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PD0(RXD)"/>
+<pinref part="SERIAL" gate="-2" pin="KL"/>
+<wire x1="-200.66" y1="299.72" x2="-190.5" y2="299.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PD1(TXD)"/>
+<pinref part="SERIAL" gate="-1" pin="KL"/>
+<wire x1="-200.66" y1="297.18" x2="-190.5" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="297.18" x2="-190.5" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
